@@ -1,4 +1,41 @@
 # =============================================================================
+# REFERENCES AND DATA SOURCES
+# =============================================================================
+#
+# IPD reconstruction method:
+# Guyot P, Ades AE, Ouwens MJNM, Welton NJ. Enhanced secondary analysis
+# of survival data: reconstructing the data from published Kaplan-Meier
+# survival curves. BMC Med Res Methodol. 2012;12:9.
+# doi:10.1186/1471-2288-12-9
+#
+# Reconstruction software:
+# Baio G. survHE: Survival Analysis for Health Economic Evaluation and
+# Cost-Effectiveness Modeling. J Stat Softw. 2020;95(14):1-47.
+# doi:10.18637/jss.v095.i14
+#
+# The survHE functions digitise() and make.ipd() were used to reconstruct
+# pseudo-individual patient data from digitised Kaplan-Meier curves and
+# published numbers-at-risk.
+#
+# ALEX Interim 1:
+# Peters S, Camidge DR, Shaw AT, et al. Alectinib versus Crizotinib in
+# Untreated ALK-Positive Non-Small-Cell Lung Cancer.
+# N Engl J Med. 2017;377:829-838.
+# doi:10.1056/NEJMoa1704795
+#
+# ALEX Interim 2:
+# Mok T, et al. Updated overall survival and final progression-free survival
+# data for patients with treatment-naive advanced ALK-positive non-small-cell
+# lung cancer in the ALEX study. Ann Oncol. 2020;31(8):1056-1064.
+# doi:10.1016/j.annonc.2020.04.478
+#
+# Digitisation software:
+# Rohatgi A. WebPlotDigitizer. Available at: https://automeris.io
+# Used to extract Kaplan-Meier coordinates from published ALEX trial figures.
+# =============================================================================
+
+
+# =============================================================================
 # OS survival extrapolation — ALEX (alectinib vs crizotinib), NICE TA536
 # Interim 1 data cut
 # -----------------------------------------------------------------------------
