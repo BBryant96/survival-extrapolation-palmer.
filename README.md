@@ -1,2 +1,2 @@
 # survival-extrapolation-palmer.
-Contains the reconstructed individual patient data (IPD) generated using the Guyot algorithm, together with the code used to reconstruct the IPD from published Kaplan–Meier curves.
+Contains digitised Kaplan–Meier curve data and numbers-at-risk tables from the ALEX trial, together with R code to reconstruct pseudo-individual patient data using the Guyot algorithm and validate the reconstruction against survival curves, landmark survival estimates, hazard ratios, and event counts.
